@@ -6,9 +6,9 @@ if(isset($_POST['email'])) {
      
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    $email_to = "you@yourdomain.com";
+    $email_to = "owlpixel@gmail.com";
  
-    $email_subject = "Your email subject line";
+    $email_subject = "Support request from gringophrasebookapp.com";
  
    
     $first_name = $_POST['first_name']; // required 
@@ -45,9 +45,7 @@ $headers = 'From: '.$email_from."\r\n".
  
 <!-- include your own success html here -->
  
-Thank you for contacting us. We will be in touch with you very soon. 
-
-(\n)
+Thank you for contacting us. We will be in touch with you soon. 
 
 <a href="index.html">Return To The Site</a>
  
